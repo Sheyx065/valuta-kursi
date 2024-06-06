@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stayl.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Exchange</h1>
+        <div class="update-rates">
+            <h2>Update Exchange Rates</h2>
+            <input type="number" id="newRate" placeholder="New rate">
+            <select id="rateCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="SUM">SUM</option>
+                <option value="RUB">RUB</option>
+            </select>
+            <button id="updateRateBtn">Update Rate</button>
+        </div>
+        <div class="convert-currency">
+            <h2>Convert Currency</h2>
+            <input type="number" id="amount" placeholder="Amount">
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="SUM">SUM</option>
+                <option value="RUB">RUB</option>
+            </select>
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="SUM">SUM</option>
+                <option value="RUB">RUB</option>
+            </select>
+            <button id="convertBtn">Convert</button>
+            <h3 id="exchangeRate">Exchange Rate </h3>
+            <h3 id="result">Result </h3>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
